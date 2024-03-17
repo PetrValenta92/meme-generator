@@ -49,28 +49,28 @@
 }
 
 /* Meme */
-form {
+.form {
   padding: 1.75rem 2.375rem;
   display: grid;
   gap: 2.25rem;
 }
 
-form p {
+.form p {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 0.25rem;
 }
 
-form p label {
+.form p label {
   font-weight: 500;
 }
 
-form p input {
+.form p input {
   width: 100%;
 }
 
-form input[type="text"] {
+.form input[type="text"] {
   padding: 0.75rem 0.875rem;
   border-style: none;
   border: 1px solid rgba(229, 229, 229, 1);
@@ -104,4 +104,10 @@ p.form-row {
 
 .form-row--btn:hover {
   opacity: 1;
+}
+
+.meme-image {
+  padding: 0 2.375rem;
+  display: flex;
+  max-width: 100%;
 }
