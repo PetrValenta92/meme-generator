@@ -106,8 +106,39 @@ p.form-row {
   opacity: 1;
 }
 
-.meme-image {
+.meme {
   padding: 0 2.375rem;
+  text-align: center;
+  position: relative;
+}
+
+.meme__image {
   display: flex;
-  max-width: 100%;
+  width: 100%;
+}
+
+.meme__text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 1rem 0;
+  padding: 0 0.375rem;
+  font-family: impact, sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
 }
